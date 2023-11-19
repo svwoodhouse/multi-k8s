@@ -20,8 +20,7 @@ jobs:
           docker run -e CI=true svwoodhouse/react-test npm test
  
       - name: Set Service Key
-        uses: '
-        /auth@v0'
+        uses: '/auth@v0'
         with:
           credentials_json: '${{ secrets.GKE_SA_KEY }}'
  
