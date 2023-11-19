@@ -49,7 +49,7 @@ jobs:
         run: |-
           docker push svwoodhouse/multi-client-k8s-gh:latest
           docker push svwoodhouse/multi-server-k8s-pgfix-gh:latest
-          docker push svwodhouse/multi-worker-k8s-gh:latest
+          docker push svwoodhouse/multi-worker-k8s-gh:latest
  
           docker push svwoodhouse/multi-client-k8s-gh:${{ env.SHA }}
           docker push svwoodhouse/multi-server-k8s-pgfix-gh:${{ env.SHA }}
